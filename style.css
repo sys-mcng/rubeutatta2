@@ -103,4 +103,9 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+/* ホワイトノイズ */
+.frame-inner::before {
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+　}
 }
